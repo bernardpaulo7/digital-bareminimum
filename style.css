@@ -7,7 +7,7 @@
 
 /* Body */
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     background-color: #F8F9FA;
 }
 
@@ -90,12 +90,12 @@ nav a:hover{
 .container {
     display: flex;
     gap: 10px;
-    width: 100%;
+    width: 90%;
 }
 
 /* LEFT SIDE */
 .main-content {
-    width: 75%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -105,11 +105,11 @@ nav a:hover{
 .box1,
 .box2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 100px;
-    padding: 35px;
-    border-radius: 8px;
+    margin-bottom: 110px;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 /* BOX 1 */
@@ -126,37 +126,38 @@ nav a:hover{
 .box1 .text,
 .box2 .text {
     width: 50%;
+    font-size: 25px;
 }
 
 /* IMAGES */
 .box1 img,
 .box2 img {
-    width: 50%;
+    width: 37%;
     height: 250px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 /* SIDEBAR */
 .sidebar {
-    width: 25%;
+    width: 30%;
 }
 
 /* SIDEBAR BOXES */
 .sidebox {
-    padding: 15px;
-    margin-bottom: 130px;
-    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 90px;
+    border-radius: 20px;
     background-color: #e8e8ed;
 }
 
 /* SIDEBAR TEXT */
 .sidebox h3 {
-    font-size: 16px;
+    font-size: 32px;
 }
 
 .sidebox p {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
@@ -170,9 +171,25 @@ nav a:hover{
     border-radius: 8px;
     position: absolute;
     top: 800px;
+    font-size: 20px;
 }
 
 .footer div {
     width: 25%;
-    padding: 10px;
+    padding: 30px;
+}
+
+/* ABOUT PAGE */
+
+/* ABOUT PAGE HEADING */
+
+.about-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-title h1 {
+    font-size: 45px;
+    color: #333;
 }
