@@ -269,6 +269,7 @@ nav a:hover{
     text-align: center;
     padding: 20px;
     margin: 40px;
+    font-size: 65px;
 }
 
 /* TIPS BOX */
@@ -278,22 +279,22 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     background-color: #f7efd2;
-    padding: 20px;
+    padding: 30px;
     margin: 40px;
     border-radius: 8px;
 }
 
 .tips-text {
     width: 55%;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .tips-text h2 {
     margin-bottom: 15px;
 }
 
-.tips-text{
-    font-size: 18px;
-    line-height: 1.5;
+.tips-text p {
     margin-bottom: 20px;
 }
 
@@ -323,24 +324,34 @@ nav a:hover{
     border-radius: 8px;
 }
 
+
+/* FOUR TIPS BOXES */
+
 .tips-boxes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    margin: 20px;
+    margin: 40px;
 }
 
-.tip-box {
-    background-color: #f7efd2;
-    padding: 20px;
-    border-radius: 8px;
-}
+.tips-icon {
+    font-size: 45px;
 
-.tip-box h2 {
     margin-bottom: 15px;
 }
 
-.tip-box p {
+.tips-box {
+    background-color: #f7efd2;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tips-box h2 {
+    margin-bottom: 15px;
+}
+
+.tips-box p {
     font-size: 18px;
     line-height: 1.5;
 }
@@ -351,7 +362,7 @@ nav a:hover{
     text-align: center;
     background-color: #f7efd2;
     padding: 40px;
-    margin: 20px;
+    margin: 40px;
     border-radius: 8px;
 }
 
@@ -364,12 +375,16 @@ nav a:hover{
     text-align: left;
     padding: 20px;
     width: 40%;
+    font-size: 18px;
+    vertical-align: top;
 }
 .fact {
     display: inline-block;
     text-align: left;
     padding: 20px;
     width: 40%;
+    font-size: 18px;
+    vertical-align: top;
 }
 
 .myth-icon,
@@ -380,6 +395,6 @@ nav a:hover{
 }
 
 .myth-fact p {
-    margin-top: 15x;
+    margin-top: 15px;
     line-height: 1.5;
 }
