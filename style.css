@@ -164,13 +164,11 @@ nav a:hover{
 /* FOOTER */
 .footer {
     display: flex;
-    width: 2000px;
+    width: 100%;
     margin-top: 20px;
     padding: 20px;
     background-color: #f7efd2;
     border-radius: 8px;
-    position: absolute;
-    top: 800px;
     font-size: 20px;
 }
 
@@ -218,12 +216,13 @@ nav a:hover{
 .about-info {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
 }
 
 .info-box {
     width: 33%;
+    height: 250px
     padding: 20px;
     background-color: #f7efd2;
     text-align: center;
@@ -235,11 +234,11 @@ nav a:hover{
 .about-features {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 80px;
     gap: 100px;
 }
 
-.feature.box {
+.feature-box {
     width: 25%;
     padding: 10px;
     background-color: #f7efd2;
