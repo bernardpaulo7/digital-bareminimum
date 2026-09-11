@@ -302,7 +302,7 @@ nav a:hover{
 .tips-learn-more {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #eed7a1 ;
+    background-color: #eed7a1;
     color: #000000;
     text-decoration: underline;
     border-radius: 5px;
@@ -342,5 +342,44 @@ nav a:hover{
 
 .tip-box p {
     font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Myth vs. Fact */
+
+.myth-fact {
+    text-align: center;
+    background-color: #f7efd2;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.myth-fact h1 {
+    margin-bottom: 30px;
+}
+
+.myth {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    width: 40%;
+}
+.fact {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    width: 40%;
+}
+
+.myth-icon,
+.fact-icon {
+    font-size: 35px;
+    margin-right: 15px;
+    float: left;
+}
+
+.myth-fact p {
+    margin-top: 15x;
     line-height: 1.5;
 }
