@@ -292,7 +292,33 @@ nav a:hover{
 }
 
 .tips-text{
-    font size: 18px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+/* Tips Learn more button */
+
+.tips-learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eed7a1 ;
+    color: #000000;
+    text-decoration: underline;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/* IMAGE */
+
+.tips-image {
+    width: 30%;
+}
+
+.tips-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
 }
