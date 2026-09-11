@@ -111,9 +111,33 @@ nav a:hover{
     background-color: #fff8eb;
 }
 
+/* LEARN MORE BUTTON */
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eed7a1 ;
+    color: #000000;
+    text-decoration: underline;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
 /* BOX 2 */
 .box2 {
     background-color: #fff8eb;
+}
+
+/* MORE BUTTON */
+.More-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eed7a1 ;
+    color: #000000;
+    text-decoration: underline;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 /* TEXT INSIDE BOXES */
