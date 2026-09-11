@@ -195,6 +195,7 @@ nav a:hover{
 }
 
 
+/* ABOUT IMAGE */
 .about-image {
     display: flex;
     justify-content: center;
@@ -212,6 +213,8 @@ nav a:hover{
     border-radius: 20px;  
 }
 
+
+/* ABOUT THREE BOXES */
 .about-info {
     display: flex;
     justify-content: space-between;
@@ -227,5 +230,19 @@ nav a:hover{
 
 }
 
+/* ABOUT FOUR BOXES */
 
+.about-features {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 100px;
+}
+
+.feature.box {
+    width: 25%;
+    padding: 10px;
+    background-color: #f7efd2;
+    text-align: center;
+}
 
