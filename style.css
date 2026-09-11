@@ -262,3 +262,37 @@ nav a:hover{
     background-color: #f7efd2;
     text-align: center;
 }
+
+
+/* TIPS TITLE */
+.tips-title {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+/* TIPS BOX */
+
+.tips-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7efd2;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 8px;
+}
+
+.tips-text {
+    width: 55%;
+}
+
+.tips-text h2 {
+    margin-bottom: 15px;
+}
+
+.tips-text{
+    font size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
