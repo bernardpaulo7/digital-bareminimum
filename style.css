@@ -21,7 +21,6 @@ nav{
 /* Navigation List */
 nav ul{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     list-style: none;
     height: 70px;
@@ -29,14 +28,14 @@ nav ul{
 
 
 /* Logo */
-nav li:first-child{
+nav h1 {
     margin-right: auto;
+    font-size: 1.7rem;
 }
 
-nav li:first-child a{
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: white;
+/* Links */
+nav li {
+    margin-left: 25px;
 }
 
 /* Menu Items */
@@ -222,7 +221,7 @@ nav a:hover{
 
 .info-box {
     width: 33%;
-    height: 250px
+    height: 350px
     padding: 20px;
     background-color: #f7efd2;
     text-align: center;
