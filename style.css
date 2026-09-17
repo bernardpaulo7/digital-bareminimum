@@ -206,7 +206,7 @@ nav a:hover{
 }
 
 .about-title h1 {
-    font-size: 45px;
+    font-size: 70px;
     color: #333;
 }
 
@@ -240,11 +240,22 @@ nav a:hover{
 
 .info-box {
     width: 33%;
-    height: 350px
+    height: 450px;
     padding: 20px;
     background-color: #f7efd2;
     text-align: center;
 
+}
+
+.info-box h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.info-box p {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 25px;
 }
 
 /* ABOUT FOUR BOXES */
@@ -253,7 +264,7 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     padding: 80px;
-    gap: 100px;
+    gap: 15px;
 }
 
 .feature-box {
@@ -261,6 +272,7 @@ nav a:hover{
     padding: 10px;
     background-color: #f7efd2;
     text-align: center;
+    height: 220px;
 }
 
 
