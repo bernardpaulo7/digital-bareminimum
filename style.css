@@ -258,6 +258,17 @@ nav a:hover{
     font-size: 25px;
 }
 
+/* TIPS BOX HOVER */
+
+.tips-box {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tips-box:hover {
+    transform: scale(1.05);
+    background-color: #e6d9b8;
+}
+
 /* ABOUT FOUR BOXES */
 
 .about-features {
