@@ -25,14 +25,21 @@ nav ul{
     list-style: none;
     height: 70px;
     margin: 0;
-    padding 0;
+    padding: 0;
 }
 
 
 /* Logo */
-nav h1 {
+nav .logo-link {
     margin-right: auto;
-    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-link img {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
 }
 
 /* Links */
@@ -64,6 +71,10 @@ nav a:hover{
         padding: 20px 0;
     }
 
+    nav ul a:first-child{
+        margin-right: auto;
+    }
+
     nav li{
         width: 100%;
         margin: 8px 0;
@@ -79,6 +90,8 @@ nav a:hover{
         padding: 12px 20px;
     }
 }
+
+
 
 /* MAIN CONTAINER */
 .container {
