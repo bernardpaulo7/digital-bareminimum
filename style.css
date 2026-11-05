@@ -13,9 +13,9 @@ body{
 
 /* Navigation Bar */
 nav{
-    background-color: #f7efd2 ;
+    background-color: #f7efd2;
     padding: 0 2%;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation List */
@@ -23,7 +23,7 @@ nav ul{
     display: flex;
     align-items: center;
     list-style: none;
-    height: 70px;
+    min-height: 4.4rem;
     margin: 0;
     padding: 0;
 }
@@ -37,14 +37,15 @@ nav .logo-link {
 }
 
 .logo-link img {
-    width: 300px;
+    width: 100%;
+    max-width: 18.75rem;
     height: auto;
     object-fit: contain;
 }
 
 /* Links */
 nav li {
-    margin-left: 25px;
+    margin-left: 2%;
 }
 
 
