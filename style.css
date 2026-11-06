@@ -97,8 +97,9 @@ nav a:hover{
 /* MAIN CONTAINER */
 .container {
     display: flex;
-    gap: 10px;
+    gap: 1%;
     width: 90%;
+    margin: 0 auto;
 }
 
 /* LEFT SIDE */
@@ -106,7 +107,7 @@ nav a:hover{
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 /* BOX 1 AND BOX 2 */
@@ -115,9 +116,10 @@ nav a:hover{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 110px;
-    padding: 30px;
-    border-radius: 20px;
+    gap: 3%;
+    margin-bottom: 7%;
+    padding: 3%;
+    border-radius: 1.25rem;
 }
 
 /* BOX 1 */
@@ -128,13 +130,13 @@ nav a:hover{
 /* LEARN MORE BUTTON */
 .learn-more {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #eed7a1 ;
+    padding: 0.6rem 1.25rem;
+    background-color: #eed7a1;
     color: #000000;
     text-decoration: underline;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 25px;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
 }
 
 /* BOX 2 */
@@ -145,29 +147,30 @@ nav a:hover{
 /* MORE BUTTON */
 .More-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #eed7a1 ;
+    padding: 0.6rem 1.25rem;
+    background-color: #eed7a1;
     color: #000000;
     text-decoration: underline;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 25px;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
 }
 
 /* TEXT INSIDE BOXES */
 .box1 .text,
 .box2 .text {
     width: 50%;
-    font-size: 25px;
+    font-size: 1.4rem;
 }
 
 /* IMAGES */
 .box1 img,
 .box2 img {
     width: 37%;
-    height: 250px;
+    height: auto;
+    aspect-ratio: 1.5 / 1;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 0.9rem;
 }
 
 /* SIDEBAR */
@@ -177,19 +180,19 @@ nav a:hover{
 
 /* SIDEBAR BOXES */
 .sidebox {
-    padding: 30px;
-    margin-bottom: 90px;
-    border-radius: 20px;
+    padding: 3%;
+    margin-bottom: 15%;
+    border-radius: 1.25rem;
     background-color: #e8e8ed;
 }
 
 /* SIDEBAR TEXT */
 .sidebox h3 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .sidebox p {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
@@ -197,16 +200,16 @@ nav a:hover{
 .footer {
     display: flex;
     width: 100%;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 1.25rem;
+    padding: 1.25rem;
     background-color: #f7efd2;
-    border-radius: 8px;
-    font-size: 20px;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .footer div {
     width: 25%;
-    padding: 30px;
+    padding: 3%;
 }
 
 /* ABOUT PAGE */
@@ -216,11 +219,11 @@ nav a:hover{
 .about-title {
     font-weight: bold;
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .about-title h1 {
-    font-size: 70px;
+    font-size: 4.375rem;
     color: #333;
 }
 
@@ -235,12 +238,10 @@ nav a:hover{
 
 .about-image img {
     width: 95%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 375px;
+    height: auto;
+    aspect-ratio: 2.5 / 1;
     object-fit: cover;
-    border-radius: 20px;  
+    border-radius: 1.25rem;
 }
 
 
@@ -248,28 +249,27 @@ nav a:hover{
 .about-info {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
-    gap: 20px;
+    padding: 2.5rem;
+    gap: 1.25rem;
 }
 
 .info-box {
     width: 33%;
-    height: 450px;
-    padding: 20px;
+    min-height: 28rem;
+    padding: 2%;
     background-color: #f7efd2;
     text-align: center;
-
 }
 
 .info-box h2 {
-    margin-bottom: 40px;
-    font-size: 50px;
+    margin-bottom: 2rem;
+    font-size: clamp(1.8rem, 3vw, 3.1rem);
 }
 
 .info-box p {
-    margin-bottom: 30px;
+    margin-bottom: 1.5rem;
     line-height: 1.5;
-    font-size: 25px;
+    font-size: 1.25rem;
 }
 
 /* TIPS BOX HOVER */
@@ -288,25 +288,25 @@ nav a:hover{
 .about-features {
     display: flex;
     justify-content: space-between;
-    padding: 80px;
-    gap: 15px;
+    padding: 5%;
+    gap: 2%;
 }
 
 .feature-box {
     width: 25%;
-    padding: 10px;
+    padding: 2%;
     background-color: #f7efd2;
     text-align: center;
-    height: 220px;
+    min-height: 13.75rem;
 }
 
 
 /* TIPS TITLE */
 .tips-title {
     text-align: center;
-    padding: 20px;
-    margin: 40px;
-    font-size: 65px;
+    padding: 1.25rem;
+    margin: 2%;
+    font-size: clamp(2.5rem, 5vw, 4rem);
 }
 
 /* TIPS BOX */
@@ -315,37 +315,38 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 4%;
     background-color: #f7efd2;
-    padding: 30px;
-    margin: 40px;
-    border-radius: 8px;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 0.5rem;
 }
 
 .tips-text {
     width: 55%;
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
 .tips-text h2 {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .tips-text p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 /* Tips Learn more button */
 
 .tips-learn-more {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.6rem 1.25rem;
     background-color: #eed7a1;
     color: #000000;
     text-decoration: underline;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 25px;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
 }
 
 /* IMAGE */
@@ -356,9 +357,10 @@ nav a:hover{
 
 .tips-image img {
     width: 100%;
-    height: 250px;
+    height: auto;
+    aspect-ratio: 1.5 / 1;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 
@@ -367,29 +369,28 @@ nav a:hover{
 .tips-boxes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 40px;
+    gap: 2%;
+    margin: 2%;
 }
 
 .tips-icon {
-    font-size: 45px;
-
-    margin-bottom: 15px;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
 }
 
 .tips-box {
     background-color: #f7efd2;
-    padding: 30px;
-    border-radius: 8px;
+    padding: 3%;
+    border-radius: 0.5rem;
     text-align: center;
 }
 
 .tips-box h2 {
-    margin-bottom: 15px;
+    margin-bottom: 1.25rem;
 }
 
 .tips-box p {
-    font-size: 18px;
+    font-size: 1.25rem;
     line-height: 1.5;
 }
 
@@ -398,40 +399,181 @@ nav a:hover{
 .myth-fact {
     text-align: center;
     background-color: #f7efd2;
-    padding: 40px;
-    margin: 40px;
-    border-radius: 8px;
+    padding: 4%;
+    margin: 4%;
+    border-radius: 0.5rem;
 }
 
 .myth-fact h1 {
-    margin-bottom: 30px;
+    margin-bottom: 1.25rem;
 }
 
 .myth {
     display: inline-block;
     text-align: left;
-    padding: 20px;
+    padding: 2%;
     width: 40%;
-    font-size: 18px;
+    font-size: 1.25rem;
     vertical-align: top;
 }
 .fact {
     display: inline-block;
     text-align: left;
-    padding: 20px;
+    padding: 2%;
     width: 40%;
-    font-size: 18px;
+    font-size: 1.25rem;
     vertical-align: top;
 }
 
 .myth-icon,
 .fact-icon {
-    font-size: 35px;
-    margin-right: 15px;
+    font-size: 2.8rem;
+    margin-right: 1.25rem;
     float: left;
 }
 
 .myth-fact p {
-    margin-top: 15px;
+    margin-top: 1.25rem;
     line-height: 1.5;
+}
+
+/* OTHER DEVICES */
+
+/* NAVBAR */
+
+@media (max-width: 768px) {
+        nav ul {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 1.25rem 0;
+    }
+
+        nav .logo-link {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+        .logo-link img {
+        max-width: 80%;
+    }
+
+        nav li {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+        nav a {
+        display: block;
+        width: 100%;
+        padding: 0.75rem 1.25rem;
+    }
+
+    /* MAIN PAGE */
+
+        .container {
+        flex-direction: column;
+        width: 95%;
+    }
+
+        .main-content,
+    .sidebar {
+        width: 100%;
+    }
+
+        .box1,
+    .box2 {
+        flex-direction: column;
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+
+        .box1 .text,
+    .box2 .text,
+    .box1 img,
+    .box2 img {
+        width: 100%;
+    }
+
+        .box1 img,
+    .box2 img {
+        margin-top: 1rem;
+    }
+
+        .sidebox {
+        margin-bottom: 5%;
+    }
+
+    /* ABOUT PAGE */
+
+        .about-info,
+    .about-features {
+        flex-direction: column;
+        padding: 4%;
+        gap: 1rem;
+    }
+
+    .info-box,
+    .feature-box {
+        width: 100%;
+        min-height: auto;
+        padding: 5%;
+    }
+
+    .about-image img {
+        width: 95%;
+        aspect-ratio: 1.5 / 1;
+    }
+
+    /* TIPS PAGE */
+
+        .tips-intro {
+        flex-direction: column;
+        margin: 3%;
+        padding: 5%;
+    }
+
+    .tips-text,
+    .tips-image {
+        width: 100%;
+    }
+
+    .tips-image {
+        margin-top: 1rem;
+    }
+
+    .tips-boxes {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 3%;
+    }
+
+    .tips-box {
+        padding: 5%;
+    }
+
+    /* MYTH VS. FACT */
+
+        .myth,
+    .fact {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .myth-fact {
+        padding: 5%;
+        margin: 3%;
+    }
+
+    /* FOOTER */
+
+        .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer div {
+        width: 100%;
+        padding: 3%;
+    }
 }
